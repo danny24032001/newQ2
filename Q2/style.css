@@ -1,0 +1,302 @@
+body{
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+}
+.mymenu{
+	position: absolute; 
+	background-color:white;
+	width: 100%;
+	height:auto;
+
+}
+
+
+.menu li{
+	list-style: none;
+	width: 160px;
+	height: 50px;
+	background-color: white;
+	margin-left: 40px;
+	text-align: center;
+	line-height: 50px;
+	float: left;
+
+}
+.menu li:hover{
+	background-color: darkcyan;
+	transition: 1s;
+}
+.menu li a{
+	color: gray;
+	display: block;
+	text-decoration: none;
+}
+.menu li a:hover{
+	color:white;
+}
+.logo{
+	width :45px;
+}
+.logo_li:hover{
+	background-color: white !important;
+}
+.home{
+	background-color: darkcyan !important;
+
+}
+.home a{
+	color: white !important;
+}
+.about{
+	background-color: darkcyan !important;
+
+}
+.about a{
+	color: white !important;
+}
+.course{
+	background-color: darkcyan !important;
+
+}
+.course a{
+	color: white !important;
+}
+.tutorial{
+	background-color: darkcyan !important;
+
+}
+.tutorial a{
+	color: white !important;
+}
+.contact{
+	background-color: darkcyan !important;
+
+}
+.contact a{
+	color: white !important;
+}
+
+#banner{
+	width: 100%;
+}
+#banner img{
+	width: 100%;
+	margin-top: 60px; 
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* style the container */
+.container {
+	margin: auto;
+	margin-top: 10px;
+	width: 50%;
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+} 
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+   background-color:darkcyan ;
+  color: white;
+}
+
+.twitter {
+  background-color:darkcyan ;
+  color: white;
+}
+
+.google {
+  background-color:darkcyan ;
+  color: white;
+}
+.fb:hover{
+	background-color: #3B5998;
+}
+.twitter:hover{
+	background-color: #55ACEE;
+}
+.google:hover{
+	background-color: #dd4b39;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: darkcyan;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.vl-innertext {
+	color: white;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: darkcyan;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+	margin: auto;
+	width: 50%;
+  text-align: center;
+  background-color: darkcyan;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+.aboutussect{
+	width: 80%;
+	padding: 30px;
+	background-color: white;
+	margin :auto;
+	margin-top: 7px;
+	border-radius: 10px;
+	font-size: 20px;
+	text-align: justify;
+}
+.aboutussect h1{
+	margin: auto;
+	width: 300px;
+	color:darkcyan;
+	text-align: center;
+	border-bottom: 1px solid darkcyan;
+}
+.button {
+  border-radius: 4px;
+  background-color: darkcyan;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.icon{
+	width: 120px;
+	height:120px;
+	border: 1px solid gray;
+	margin: 10px auto;
+	line-height: 120px;
+	font-size: 50px;
+	background-color: darkcyan;
+	color: white;
+	border-radius: 100%;
+	transition: 0.3s;
+
+}
+.icon:hover{
+	font-size: 40px;
+}
+
